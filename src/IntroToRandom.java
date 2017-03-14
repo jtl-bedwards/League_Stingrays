@@ -1,3 +1,5 @@
+import java.util.Random;
+
 //1. Run the program.  What number appears?
 
 //2. Make the number random.
@@ -11,10 +13,11 @@
 public class IntroToRandom {
 	public static void main(String[] args) {
 		//Create an object of the Random class here
+		Random tod =new Random();
+		int i=tod.nextInt(25);
 		
 		
-		int i = 0;
+		System.out.println(i); 
 		
-		System.out.println(i);
 	}
 }
